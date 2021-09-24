@@ -24,3 +24,6 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root'),
 )
+
+export type AppDispatch = typeof store.dispatch
+export type RootState = ReturnType<typeof store.getState>

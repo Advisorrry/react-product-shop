@@ -9,4 +9,5 @@ const rootReducer = combineReducers({
     [usersApi.reducerPath]: usersApi.reducer,
 })
 
+export type RootState = ReturnType<typeof rootReducer>
 export default rootReducer
