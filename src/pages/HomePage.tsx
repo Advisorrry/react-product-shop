@@ -5,7 +5,7 @@ import { SearchInput } from '../components/SearchInput'
 export const HomePage: React.FC = () => {
     return (
         <div>
-            <SearchInput text='Все товары' />
+            <SearchInput>Все товары</SearchInput>
         </div>
     )
 }

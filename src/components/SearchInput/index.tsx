@@ -2,13 +2,13 @@ import React from 'react'
 import { Input } from '../Input'
 
 interface SearchInputProps {
-    text: string
+    children: string
 }
 
-export const SearchInput: React.FC<SearchInputProps> = ({ text }) => {
+export const SearchInput: React.FC<SearchInputProps> = ({ children }) => {
     return (
         <div className="mx-5 my-5 flex justify-between items-center">
-            <h2 className="font-bold text-4xl	">{text}</h2>
+            <h2 className="font-bold text-4xl">{children}</h2>
             <Input />
         </div>
     )
