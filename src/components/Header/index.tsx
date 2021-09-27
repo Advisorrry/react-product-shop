@@ -17,9 +17,8 @@ export const Header: React.FC = () => {
             <ul className="flex">
                 <Link to={RouteNames.CART}>
                     <li className="mr-8 flex cursor-pointer">
-                        <span>1222 ₽</span>
-                        <img className="w-5 h-5 ml-2" src="img/cart.svg" alt="Корзина" />
-                    </li>
+                        <img className="w-5 h-5 mr-2" src="img/cart.svg" alt="Корзина" />
+                        <span className="text-base font-semibold opacity-50">1222 ₽</span>                    </li>
                 </Link>
                 <li className="mr-8 cursor-pointer">
                     <Link to="/favorites">
